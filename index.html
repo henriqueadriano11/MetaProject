@@ -12,8 +12,8 @@
 
 	<body>
 		<div class="menu">
-			<br><br><h1>Projeto <strong>METACORTEX</strong></h1>
-			<div class="menu_nomes">
+			<br><h1>Projeto <strong>METACORTEX</strong></h1>
+			<nav class="menu_nomes">
 				<ul>
 					<li><a title="Home" href="">HOME</a></li>
 					<li><a title="Meu Perfil" href="">PERFIL</a></li>
@@ -21,20 +21,41 @@
 					<li><a title="Faturamento" href="">FATURAMENTO</a></li>
 					<li><a title="Contato" href="">CONTATO</a></li>
 				</ul>
-			</div>
+			</nav>
 		</div>
 
-		<div class="sidebar">
+
+		<aside class="sidebar">
 			<div class="perfil">
-				<br><br><br><br><br><br><br><br><br><h3>Meu <strong>PERFIL</strong></h3>
+				<br><h2>Meu <strong>PERFIL</strong></h2>
 			</div>
-			<div class="opcao">
-				<h4>Meus DADOS</h4><br>
-				<h4>Meus PROJETOS</h4><br>
-				<h4>Meus Trabalhos</h4><br>
-				<h4>Minha Reputação</h4>
+
+			<div id="search">
+				<h3>Refinar pesquisa </h3>
+					<ul class="searchNav">
+						<!--<li><a href="#"onclick="app.search.categoryFilterToggleAll(true)">Marcar todos</a>
+						<a href="#"onclick="app.search.categoryFilterToggleAll(false)">Desmarcar todos</a></li>-->
+						<br>
+						<h4><b>Estado</b></h4>
+						<li><input type="checkbox" name="fc[]"value="estado-rj"><a href=""> Rio de Janeiro </a></li>
+						<li><input type="checkbox" name="fc[]"value="estado-sc"><a href=""> Santa Catarina </a></li>
+						<li><input type="checkbox" name="fc[]"value="estado-sp"><a href=""> São Paulo </a></li>
+						<br>
+						<h4><b>Cidade</b></h4>
+						<li><input type="checkbox" name="fc[]"value="cid-rio"><a href=""> Rio de Janeiro </a></li>
+						<li><input type="checkbox" name="fc[]"value="cid-flori"><a href=""> Florianópolis </a></li>
+						<li><input type="checkbox" name="fc[]"value="cid-jund"><a href=""> Jundiaí </a></li>
+						<br>
+						<h4><b>Função</b></h4>
+						<li><input type="checkbox" name="fc[]"value="desenvolvedor"><a href=""> Desenvolvedor </a></li>
+						<li><input type="checkbox" name="fc[]"value="eletricista"><a href=""> Eletricista </a></li>
+						<li><input type="checkbox" name="fc[]"value="mecanico"><a href=""> Mecânico </a></li>
+						<li><input type="checkbox" name="fc[]"value="tecnico"><a href=""> Técnico de Informática </a></li>
+						<li><input type="checkbox" name="fc[]"value="webdesigner"><a href=""> Web Designer </a></li>
+					</ul>
 			</div>
-		</div>
+		</aside>
+
 
 		<div class="container">
 			<div class="img-wraper">
